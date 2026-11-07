@@ -1,0 +1,20 @@
+# IDE配置 (绝对不能传)
+.idea/
+
+# Python 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 前端依赖包 (如果有，绝对不能传，太大了)
+node_modules/
+dist/
+
+# 环境变量与敏感信息 (如果有，绝对不能传)
+.env
+*.sqlite3
+
+# 系统文件
+.DS_Store
+Thumbs.db
